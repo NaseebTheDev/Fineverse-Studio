@@ -1,5 +1,3 @@
-CREATE DATABASE IF NOT EXISTS studio_portal CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-USE studio_portal;
 SET FOREIGN_KEY_CHECKS=0;
 DROP TABLE IF EXISTS audit_logs,notifications,project_assignments,projects,payroll_records,salary_history,salaries,employee_skills,software,skills,attendance,users,employees,job_titles,departments,settings;
 SET FOREIGN_KEY_CHECKS=1;
