@@ -1,8 +1,10 @@
-```
+```gitignore
+# Dependencies
+vendor/
+
 # Logs and temp files
 *.log
 *.tmp
-*.swp
 
 # Environment
 .env
@@ -13,17 +15,44 @@
 .vscode/
 .idea/
 
-# Dependencies
-node_modules/
-vendor/
+# OS generated files
+.DS_Store
+Thumbs.db
 
 # Build artifacts
 dist/
 build/
-*.css.map
-*.js.map
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
 
-# OS generated files
-.DS_Store
-Thumbs.db
+# Python specific
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.eggs/
+.coverage
+htmlcov/
+.coverage.*
+.nosetests.xml
+coverage.xml
+*.cover
+*.log
+
+# PHP specific
+*.php~
+*.php.bak
+*.swp
+*.swo
+
+# Uploads (except the .gitkeep file)
+uploads/*
+!uploads/.gitkeep
 ```
