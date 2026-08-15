@@ -9,9 +9,9 @@ vendor/
 # Environment
 .env
 .env.local
-*.env.*
+.env.*
 
-# Editors
+# Editor/IDE
 .vscode/
 .idea/
 
