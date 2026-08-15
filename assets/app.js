@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',()=>{document.querySelectorAll('[data-toggle-password]').forEach(b=>b.onclick=()=>{let i=document.querySelector(b.dataset.togglePassword);i.type=i.type==='password'?'text':'password';b.textContent=i.type==='password'?'Show':'Hide'});});
