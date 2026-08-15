@@ -1,11 +1,10 @@
-```
+```gitignore
 # Dependencies
 vendor/
 
 # Logs and temp files
 *.log
 *.tmp
-*.swp
 
 # Environment
 .env
@@ -23,51 +22,37 @@ Thumbs.db
 # Build artifacts
 dist/
 build/
-target/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
 
-# Python
+# Python specific
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-
-# Node.js
-node_modules/
-
-# Coverage reports
-coverage/
-htmlcov/
+.Python
+*.egg-info/
+.eggs/
 .coverage
+htmlcov/
+.coverage.*
+.nosetests.xml
+coverage.xml
+*.cover
+*.log
 
-# Database
-*.db
-*.sqlite
-*.sqlite3
+# PHP specific
+*.php~
+*.php.bak
+*.swp
+*.swo
 
-# Cache directories
-.cache/
-.mypy_cache/
-.pytest_cache/
-.nyc_output/
-coverage/
-
-# Backup files
-*~
-*.bak
-*.backup
-
-# Compressed files
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-
-# Uploads directory (except .gitkeep)
+# Uploads (except the .gitkeep file)
 uploads/*
 !uploads/.gitkeep
 ```
