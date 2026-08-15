@@ -1,4 +1,4 @@
-# FrameForge Studio Portal
+# FineVerse Studio Portal
 
 Local XAMPP/PHP/MySQL employee portal for a motion design and VFX studio.
 
@@ -8,7 +8,7 @@ Local XAMPP/PHP/MySQL employee portal for a motion design and VFX studio.
 2. Start **Apache** and **MySQL** in XAMPP.
 3. Open phpMyAdmin, choose **Import**, and import `studio_portal.sql`.
 4. Visit `http://localhost/studio-portal/`.
-5. Sign in with `admin@frameforge.local` / `ChangeMe123!`, then change the seeded password immediately.
+5. Sign in with `admin@fineverse.local` / `ChangeMe123!`, then change the seeded password immediately.
 
 If your MySQL root account has a password, update `DB_PASS` in `config.php`. Uploaded content is stored under `uploads/` in the project directory.
 
